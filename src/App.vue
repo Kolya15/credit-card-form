@@ -1,16 +1,16 @@
 <template>
     <div id="app">
-        <MainVuews></MainVuews>
+        <MainViews></MainViews>
     </div>
 </template>
 
 <script>
-  import MainVuews from "./views/MainVuews";
+  import MainViews from "./views/MainViews";
 
     export default {
         name: 'App',
         components: {
-            MainVuews,
+            MainViews,
         }
     }
 </script>
