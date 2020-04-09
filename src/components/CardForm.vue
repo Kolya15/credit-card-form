@@ -69,7 +69,7 @@
             setCardMonth(n) {
                 if (this.cardSettings.cardYear === this.presentYear){
                     this.cardSettings.cardMonth = '';
-                    this.$emit('input', this.cardSettings);
+                    this.$emit('set-settings', this.cardSettings);
                 }
                 return n < 10 ? '0' + n : n;
             },
